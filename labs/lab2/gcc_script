@@ -1,0 +1,7 @@
+gcc -O0 code.c -o lab2_O0.bin -Wall
+gcc -O1 code.c -o lab2_O1.bin -Wall
+gcc -O2 code.c -o lab2_O2.bin -Wall
+gcc -O3 code.c -o lab2_O3.bin -Wall
+gcc -Os code.c -o lab2_Os.bin -Wall
+gcc -Og code.c -o lab2_Og.bin -Wall
+gcc -Ofast code.c -o lab2_Ofast.bin -Wall

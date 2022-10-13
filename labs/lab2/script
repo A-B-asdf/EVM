@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for index in 100000000 400
+do
+  for O in O1 O2 O3 Os Og Ofast
+  do
+    gcc -$O code$index.c -o lab2_$O.bin -Wall
+  done
+done
